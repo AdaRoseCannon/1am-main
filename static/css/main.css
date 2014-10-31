@@ -7,22 +7,27 @@ html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	font-family: sans;
 }
 
 .banner {
-	color: red;
-	text-shadow: 0.005em 0.025em 0.01em rgb(150,0,0), 0.01em 0.05em 0em rgb(150,0,0), 0.02em 0.1em 0.1em rgba(0, 0, 0, 0.59);
+	color: #F00;
+	text-shadow: 0.005em 0.025em 0.01em #960000, -0.1em 0.00em 0em #960000, -0.1em 0.0em 0.1em rgba(0, 0, 0, 0.59);
 	font-size: 4em;
 	margin: 0;
+	transform: perspective( 600px )rotateY(45deg);
 }
 
 .main_content, .main_header {
 	padding: 2em 4em;
-	font-family: sans;
+}
+
+.main_navigator ul > li {
+	display:inline;
 }
 
 .main_header {
 	border-bottom: 1px solid grey;
 	box-shadow: 0em 0.2em 0.5em -0.25em grey;
-	background: linear-gradient(to bottom, rgba(232,120,16,1) 0%,rgba(89, 3, 3, 1) 50%,rgba(117,34,1,1) 51%,rgba(19, 17, 16, 1) 100%);
+	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(89,148,202,1) 62%,rgba(95,154,207,0.7) 68%,rgba(125,185,232,0) 100%);
 }
