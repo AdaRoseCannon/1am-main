@@ -44,7 +44,7 @@ html, body {
 	background: linear-gradient(to bottom, #07033E 0%, #A43957 62%, rgba(182, 100, 178, 0.7) 68%, rgba(125, 185, 232, 0) 100%) repeat scroll 0% 0% transparent;
 }
 
-.main_body {
+.main_content {
 	padding: 1em;
 	width: 40em;
 	max-width: 100%;
