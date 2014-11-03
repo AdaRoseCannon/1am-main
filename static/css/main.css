@@ -34,8 +34,12 @@ html, body {
 
 
 .main_navigator ul > li {
-	display:inline;
+	display: inline;
 	flex-grow: 1;
+	text-align: center;
+	background: rgb(200, 150, 180);
+	border-radius: 0.2em;
+	margin: 0.1em;
 }
 
 .main_header {
