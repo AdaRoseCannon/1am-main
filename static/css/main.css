@@ -19,6 +19,7 @@ html, body {
 	width: 100%;
 	display: block;
 	transform-origin: 5% 50% 0px;
+	text-decoration: underline;
 }
 
 .main_content, .main_header {
@@ -31,5 +32,5 @@ html, body {
 
 .main_header {
 	padding-top: 2em;
-	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(89,148,202,1) 62%,rgba(95,154,207,0.7) 68%,rgba(125,185,232,0) 100%);
+	background: linear-gradient(to bottom, #07033E 0%, #A43957 62%, rgba(182, 100, 178, 0.7) 68%, rgba(125, 185, 232, 0) 100%) repeat scroll 0% 0% transparent;
 }
