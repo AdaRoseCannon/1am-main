@@ -12,5 +12,6 @@
 		<div class="main_header">{{> header }}</div>
 		<div class="main_navigator">{{> nav }}</div>
 		<div class="main_content">{{{ body }}}</div>
+		{{# form }}{{> form }}{{/ form }}
 	</body>
 </html>
