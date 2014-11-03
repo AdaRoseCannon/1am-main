@@ -54,7 +54,8 @@ var markdown = {
 
 var partials = {
 	header: 'header',
-	nav: 'nav'
+	nav: 'nav',
+	form: 'form'
 };
 
 app.engine('ms', mustacheEngine);
@@ -95,7 +96,8 @@ app.get('/reg/', function (req, res) {
 	res.render('page', {
 		title: "1am Club",
 		body: markdown.regInstructions,
-		partials: partials
+		partials: partials,
+		form: true
 	});
 });
 
