@@ -22,10 +22,6 @@ html, body {
 	text-decoration: underline;
 }
 
-.main_content, .main_header {
-	padding: 0em 4em 2em 4em;
-}
-
 .main_navigator ul {
 	display:flex;
 	flex-direction: row;
@@ -43,6 +39,14 @@ html, body {
 }
 
 .main_header {
+	padding: 0em 4em 2em 4em;
 	padding-top: 2em;
 	background: linear-gradient(to bottom, #07033E 0%, #A43957 62%, rgba(182, 100, 178, 0.7) 68%, rgba(125, 185, 232, 0) 100%) repeat scroll 0% 0% transparent;
+}
+
+.main_body {
+	padding: 1em;
+	width: 40em;
+	max-width: 100%;
+	margin: 0px auto;
 }
