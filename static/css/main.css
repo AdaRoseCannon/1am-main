@@ -26,8 +26,16 @@ html, body {
 	padding: 0em 4em 2em 4em;
 }
 
+.main_navigator ul {
+	display:flex;
+	flex-direction: row;
+	padding: 0em 5em;
+}
+
+
 .main_navigator ul > li {
 	display:inline;
+	flex-grow: 1;
 }
 
 .main_header {
