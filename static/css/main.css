@@ -49,4 +49,11 @@ html, body {
 	width: 40em;
 	max-width: 100%;
 	margin: 0px auto;
+	box-sizing: border-box;
+}
+
+@media only screen and (max-width: 767px) {
+	.main_navigator ul {
+		flex-direction: column;
+	}
 }
