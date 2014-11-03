@@ -1,9 +1,12 @@
 'use strict';
+var httpsOpts = require('/home/ada/keys/keys_config.js');
+process.setuid(1002);
+
 var express = require('express');
 var path = require('path');
 var fs = require('fs');
 var https = require('https');
-var httpsOpts = require('/home/ada/keys/keys_config.js');
+
 var options = {
 	port: 8444
 };
