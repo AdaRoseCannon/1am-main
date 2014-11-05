@@ -19,6 +19,8 @@ For now I am hosting it on amazon ec2 at my own expense I may start asking for d
 
 ## Registering:
 
+NB: Only taking accepting a few registrations at the moment to see how wobbly it is. Hopefully it should be okay. Will do more soon. :)
+
 1. Read the [code of conduct](https://1am.club/coc/)
 2. Fill in the [registration form](https://1am.club/reg/)
 3. Wait for me to set up an account for you.
