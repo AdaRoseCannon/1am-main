@@ -1,19 +1,27 @@
-Feel free to request features.
 
 1am-proxy
 =========
 
- * This hosts static servers for each user.
- * Hosts the main site
- * Handles redirects
- * Updates itself on git push
- * It will host a peer.js signalling server on port 9000
+## What is it?
 
-#### The ec2 server
+1am.club is a server you can log into via ssh and statically host files over https.
 
-Located at 1am.club has ssh support on port 22. Useful commands:
+## Features
 
-* `mutt` & `mail`: Used to send and check mail.
-* `quota`: Check your disk usage
+* static webserver over https (does not support http at all)
+* has node and npm for building
+* peer.js signalling server on port 9000 for webRTC
+* Soon: es6 transpiling with commonjs support via browserify
 
-Anything placed in public_html will be available at https://1am.club/~yourname/
+## Cost
+
+For now I am hosting it on amazon ec2 at my own expense I may start asking for donations if it seems like it will get expensive.
+
+## Registering:
+
+1. Read the [code of conduct](https://1am.club/coc/)
+2. Fill in the [registration form](https://1am.club/reg/)
+3. Wait for me to set up an account for you.
+4. Using `ssh username@1am.club` log in with your emailed password
+5. Change your password using `passwd`
+6. See [tips](https://1am.club/tips/) for some ideas on what to do next.
