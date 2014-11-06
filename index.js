@@ -1,6 +1,6 @@
 'use strict';
 var httpsOpts = require('/home/ada/keys/keys_config.js');
-process.setuid(1002);
+process.setuid(1001);
 
 var express = require('express');
 var path = require('path');
