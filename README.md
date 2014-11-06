@@ -9,13 +9,13 @@
 ## Features
 
 * static webserver over https (does not support http at all)
-* has node and npm for building
+* has node and npm for building o nthe server
 * peer.js signalling server on port 9000 for webRTC
-* Soon: es6 transpiling with commonjs support via browserify
+* es6 transpiling with commonjs support via browserify, just put /t/ before the path e.g. /t/~username/myjsfile.js
 
 ## Cost
 
-For now I am hosting it on amazon ec2 at my own expense I may start asking for donations if it seems like it will get expensive.
+For now I am hosting it on amazon ec2 at my own expense I may start asking for donations if it seems like it will get expensive. The es6 transpiling feature is cool but may potentially run up costs, I may make it a donator only perk if it comes to donations. 
 
 ## Registering:
 
