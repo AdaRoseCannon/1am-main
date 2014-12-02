@@ -12,8 +12,9 @@ If you are being harassed, notice that someone else is being harassed, or have a
 #### Technical
 
  * Do NOT use Appcache
- * Use Service worker - Scope it to your folder e.g. /~ada/
+ * If you use Service worker - Scope it to your path or higher e.g. /~ada/
  * Local Storage - use sensible keys e.g. `ada-access-time` rather than `t` or `time`
- * Cookies - Define path
+ * Cookies - Define the path
+ * Building on the server is encouraged but please bare in mind you are sharing it with regards to cpu usage.
 
 A rule of thumb is think carefully when doing something which could potentially affect users on the same domain.
