@@ -1,4 +1,6 @@
 
+### Notice! log into ssh via the subdomain ssh.1am.club e.g. username@ssh.1am.club
+
 ## What is it?
 
 1am.club is a static web server you can log into via ssh. Has various useful tools for building and deving on the server.
