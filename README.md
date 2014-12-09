@@ -1,5 +1,7 @@
 
-### Notice! log into ssh via the subdomain ssh.1am.club e.g. username@ssh.1am.club
+### Notice!
+
+log into ssh via the subdomain ssh.1am.club e.g. username@ssh.1am.club
 
 ## What is it?
 
