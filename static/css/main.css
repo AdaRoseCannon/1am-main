@@ -15,10 +15,9 @@ html, body {
 	text-shadow: 0.005em 0.025em 0.01em #960000, -0.1em 0em 0em #960000, -0.1em 0em 0.1em rgba(0, 0, 0, 0.59);
 	font-size: 4em;
 	margin: 0;
-	transform: perspective(200px) rotateY(22deg) scaleX(1);
-	width: 100%;
-	display: block;
 	transform-origin: 5% 50% 0px;
+	transform: perspective(200px) rotateY(22deg) scaleX(1);
+	display: inline-block;
 	text-decoration: underline;
 }
 
@@ -37,24 +36,25 @@ html, body {
 .main_navigator ul > li > a {
 	display: block;
 	text-align: center;
-	background: rgb(200, 150, 180);
-	border-radius: 0.2em;
 	margin: 0.1em;
+	box-shadow: 0 4px 5px -5px;
+	text-decoration: none;
+	border: solid #888;
+	border-width: 0px 0px 1px 0px;
+	color: #000;
+	background: #C896B4;
 }
 
 .main_header {
-	padding: 0em 4em 2em 4em;
-	padding-top: 2em;
-	background: linear-gradient(to bottom, #07033E 0%, #A43957 62%, rgba(182, 100, 178, 0.7) 68%, rgba(125, 185, 232, 0) 100%) repeat scroll 0% 0% transparent;
+	text-align: center;
 }
 
 .main_content {
-	padding: 1em;
+	padding: 0 1em 4em 1em;
 	width: 40em;
 	max-width: 100%;
 	margin: 0px auto;
 	box-sizing: border-box;
-	padding-bottom: 4em;
 }
 
 @media only screen and (max-width: 767px) {

@@ -1,16 +1,18 @@
 
-1am-proxy
-=========
+### Notice!
+
+log into ssh via the subdomain ssh.1am.club e.g. username@ssh.1am.club
 
 ## What is it?
 
-1am.club is a server you can log into via ssh and statically host files over https.
+1am.club is a static web server you can log into via ssh. Has various useful tools for building and deving on the server.
 
 ## Features
 
 * static webserver over https
 * has node and npm for building on the server
 * peer.js signalling server on port 9000 for webRTC
+
 
 ```const peerSettings = {
 	host: '1am.club',
@@ -20,6 +22,10 @@
 }```
 
 * es6 transpiling with commonjs support via browserify, just put /t/ before the path e.g. /t/~username/myjsfile.js
+
+## NB
+Follow the [code of conduct](https://1am.club/coc/).
+Use at your own risk, there are ~~not regular~~ no backups.
 
 ## Registering:
 

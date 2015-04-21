@@ -1,6 +1,6 @@
 'use strict';
 var httpsOpts = require('/root/1am-keys/keys_config.js');
-process.setuid(1001);
+process.setuid(1006);
 
 var express = require('express');
 var path = require('path');
